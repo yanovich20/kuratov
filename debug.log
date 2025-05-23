@@ -1,0 +1,158 @@
+Array
+(
+)
+{"name":"Anatoliy","email":"yanovich.a@tam.by","comment":"Комментарий"}stdClass Object
+(
+    [name] => Anatoliy
+    [email] => yanovich.a@tam.by
+    [comment] => Комментарий
+)
+Array
+(
+)
+stdClass Object
+(
+    [name] => Кириилл Михайлович
+    [email] => test@test.test
+    [comment] => Комментарий
+)
+stdClass Object
+(
+    [name] => Кириилл Михайлович
+    [email] => test@test.test
+    [comment] => Комментарий
+)
+Array
+(
+)
+stdClass Object
+(
+    [name] => Тимофей Иванович
+    [email] => test@mail.ru
+    [comment] => Комментарий
+)
+stdClass Object
+(
+    [name] => Тимофей Иванович
+    [email] => test@mail.ru
+    [comment] => Комментарий
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => Тимофей Иванович
+            [email] => test@mail.ru
+            [comment] => Комментарий
+        )
+
+)
+stdClass Object
+(
+    [name] => Кириилл Михайлович
+    [email] => kiril@tam.ru
+    [comment] => Привет всем
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => Тимофей Иванович
+            [email] => test@mail.ru
+            [comment] => Комментарий
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Кириилл Михайлович
+            [email] => kiril@tam.ru
+            [comment] => Привет всем
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => Тимофей Иванович
+            [email] => test@mail.ru
+            [comment] => Комментарий
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Кириилл Михайлович
+            [email] => kiril@tam.ru
+            [comment] => Привет всем
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => Тимофей Иванович
+            [email] => test@mail.ru
+            [comment] => Комментарий
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Кириилл Михайлович
+            [email] => kiril@tam.ru
+            [comment] => Привет всем
+        )
+
+)
+stdClass Object
+(
+    [name] => Иван
+    [email] => mail@mail.mail
+    [comment] => Привет всем
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => Тимофей Иванович
+            [email] => test@mail.ru
+            [comment] => Комментарий
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Кириилл Михайлович
+            [email] => kiril@tam.ru
+            [comment] => Привет всем
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Иван
+            [email] => mail@mail.mail
+            [comment] => Привет всем
+        )
+
+)
+stdClass Object
+(
+    [name] => Василий Петрович
+    [email] => v_petrovich@mail.ru
+    [comment] => Комментарий
+)
+stdClass Object
+(
+    [name] => Петр Васильевич
+    [email] => peter@spb.ru
+    [comment] => Привет всем
+)

@@ -1,0 +1,229 @@
+.container{
+    max-width:1440px;
+    width:100%;
+    display:flex;
+    align-self:center;
+    flex-direction:column;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgb(36,38,43);
+}
+.header{
+    display:flex;
+    flex-direction:column;
+    max-width:1040px;
+    align-items:center;
+    align-self:center;
+    width:100%;
+}
+.header-row{
+    padding-top:30px;
+    display:flex;
+    flex-direction:row;
+    max-width:1040px;
+    width:100%;
+    height:55px;
+    justify-content: flex-start;
+    padding-bottom:90px
+}
+.logo {
+    align-self:flex-start;
+    justify-content:flex-start;
+    height:55px;
+    width:auto;
+}
+.main{
+    display:flex;
+    align-self: center;
+    justify-self: center;
+    height:250px;
+    width:auto;
+    margin-bottom:15px;
+}
+
+#my-form{
+    display:flex;
+    flex-direction:column;
+    max-width:1040px;
+    align-items:center;
+    align-self:center;
+    width:100%;
+}
+.btn-send{
+    display:flex;
+    align-self:flex-end;
+    background-color:red;
+    color:white;
+    font-size:27px;
+    font-weight:600;
+    height:80px;
+    width:200px;
+    margin-right:40px;
+}
+.inputs{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    margin-bottom:90px;
+}
+.column-1,.column-2{
+    display:flex;
+    flex-direction:column;
+    color:white;
+    font-weight:600;
+    font-size:27px;
+    width:50%;
+}
+.column-1{
+    gap:75px;
+}
+.star{
+    color:red;
+}
+.text-input{
+    margin-top:10px;
+    background-color:rgb(42,45,52);
+    font-size:27px;
+    color:white;
+    border:none;
+}
+.text-input:focus{
+    background-color:white;
+    color:black;
+}
+.form-input{
+    height:80px;
+    width:400px;
+}
+textarea{
+    width:480px;
+    height:285px;
+}
+.comments{
+    display:block;
+    background-color:white;
+    width:100%;
+}
+.title{
+    display:flex;
+    justify-self:center;
+    font-size:30px;
+    font-weight:500;
+    margin-top:120px;
+    margin-bottom:120px;
+}
+.content{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    max-width:1040px;
+    justify-self:center;
+    gap:50px;
+    width:100%;
+    padding-bottom:110px;
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    height:346px;
+    width:280px;
+    font-size:27px;
+    font-weight:500;
+    padding-left:10px;
+    padding-right:10px;
+    margin-bottom:10px;
+}
+
+   .email, .comment{
+        display:flex;
+        justify-content: center;
+        word-wrap:break-word;
+        overflow:hidden;
+    }
+    .email{
+        align-items:center;
+        font-weight: 600;
+        height:30%;
+    }
+    .comment{
+        align-items:flex-start;
+        justify-self:center;
+        text-align:center;
+        height:55%;
+    }
+    .name{
+        height:15%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+.card:nth-child(odd){
+    .email{
+        background-color:rgb(233,238,242);
+        color:black;
+    }
+    .comment{
+        background-color:rgb(233,238,242);
+        color:black;
+    }
+    .name{
+        color:white;
+        background-color:rgb(74,89,108);
+    }
+}
+.card:nth-child(even){
+    .email{
+        background-color:rgb(202,226,202);
+        color:rgb(88,173,82);;
+    }
+    .comment{
+        background-color:rgb(202,226,202);
+        color:rgb(129,146,121);
+    }
+    .name{
+        color:white;
+        background-color:rgb(88,173,82);
+    }
+}
+.footer-row{
+    display:flex;
+    flex-direction:row;
+    max-width:1040px;
+    width:100%;
+    justify-self:center;
+    justify-content:space-between;
+    padding-top:30px;
+    padding-bottom:40px;
+    background-color:rgb(36,38,43);
+}
+.socials{
+    display:flex;
+}
+.vk, .facebook{
+    width:40px;
+    height:40px;
+    display:flex;
+    margin-right: 20px;
+}
+@media screen and (min-width:320px) and (max-width:1024px)
+{
+    .inputs{
+        flex-direction:column;
+    }
+    .column-1,.column-2{
+        width:100%;
+    }
+    .form-input{
+     width:90%;
+    }
+    textarea{
+        width:90%;
+    }
+    .vk{
+        display:none;
+    }
+    .facebook{
+        display:none;
+    }
+}
